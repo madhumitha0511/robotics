@@ -1,12 +1,13 @@
 {
-  "name": "robotics-startup",
+  "name": "quantrelis-dynamics",
   "private": true,
   "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview --host 0.0.0.0 --port ${PORT:-4173}",
+    "start": "vite preview --host 0.0.0.0 --port ${PORT:-4173}"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.12",
